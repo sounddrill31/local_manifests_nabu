@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="balazskokai" fetch="https://github.com/balazskokai" clone-depth="1" />
+    <remote name="dev-harsh1998" fetch="https://github.com/dev-harsh1998" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <project path="vendor/xiaomi/nabu" name="android_vendor_xiaomi_nabu" remote="balazskokai" revision="lineage-21" />
+    <project path="kernel/xiaomi/nabu" name="android_kernel_xiaomi_nabu" remote="dev-harsh1998" revision="lineage-21" />
+    <project path="device/xiaomi/nabu" name="android_device_xiaomi_nabu" remote="dev-harsh1998" revision="lineage-21" />
+
+</manifest>
